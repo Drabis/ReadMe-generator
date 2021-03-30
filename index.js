@@ -19,18 +19,8 @@ const questions = [
 	},
     {
 		type: 'input',
-		name: 'use',
-		message: 'What are your instructions for use?',
-	},
-    {
-		type: 'input',
 		name: 'contribution',
 		message: 'Any contribution?',
-	},
-    {
-		type: 'input',
-		name: 'testing',
-		message: 'What are your instructions for testing?',
 	},
     {
 		type: 'list',
@@ -51,10 +41,17 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    writeToFile(fileName, data, err => {
+        err ? console.log(err) : console.log('Readme created!')
+        
+    })
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    prompt(questions).then
+}
 
 // Function call to initialize app
 init();

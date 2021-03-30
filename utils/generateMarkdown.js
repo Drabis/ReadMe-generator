@@ -16,6 +16,8 @@ function generateMarkdown(data) {
   ## Table of Contents
   *[Project title](#title)
   *[Description](description)
+  *[Installation](#installation)
+  *[contribution](contribution)
   *[Contribution](# contribution)
   *[License](#lincense)
   *[Username](#username)
@@ -40,7 +42,7 @@ function generateMarkdown(data) {
 
   ## Questions
   constact me:
-  Github: [${data.username}](github.com/Drabis)
+  Github: [${data.username}](https://github.com/Drabis)
   Email: [${data.email}](drabo.aboulaye88@gmail.com)
 
 `;
