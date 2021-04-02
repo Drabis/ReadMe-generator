@@ -18,7 +18,7 @@
   MIT
 
   ## Questions
-  For any questions do not hesitate to reach out,
+  For any questions do not hesitate to reach out.
   Contact me:
   On Github: [Drabis](https://github.com/Drabis) 
 
