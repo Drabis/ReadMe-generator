@@ -1,4 +1,6 @@
 # Professional README generator
+<img width="780" alt="Screen Shot 2021-04-02 at 12 15 33 AM" src="https://user-images.githubusercontent.com/76567790/113379849-a465de80-9348-11eb-9277-6dee653de1c2.png">
+
 
   ## Description
   Using the command-line application to dynamically generates a professional README.md from a user's input using the Inquirer package. This will allow a project creator to spend more time working on finishing the project and less time creating a good README
