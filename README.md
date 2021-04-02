@@ -10,16 +10,17 @@
   You can fork the repo, work on a new branch and finally open a pull request
 
   ## User Story
-  AS a developer, I WANT a README generator with the title of my project, table of content, project description, installation instruction, usage information, contribution guidelines, test instruction, a list of license options, and a badge for that license with the corresponding links if provided, SO THAT I can quickly create a professional README for a new project.
+  As a developer, I WANT a README generator with the title of my project, table of content, project description, installation instruction, usage information, contribution guidelines, test instruction, a list of license options, and a badge for that license with the corresponding links if provided, SO THAT I can quickly create a professional README for a new project.
 
   ## License
   undefined
+  MIT
   MIT
 
   ## Questions
   For any questions do not hesitate to reach out,
   Contact me:
-  On Github: [undefined](https://github.com/Drabis) 
+  On Github: [Drabis](https://github.com/Drabis) 
 
-  Via Email: [undefined](drabo.aboulaye88@gmail.com)
+  Via Email: [drabo.aboulaye88@gmail.com](drabo.aboulaye88@gmail.com)
 

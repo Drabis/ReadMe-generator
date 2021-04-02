@@ -34,7 +34,17 @@ const questions = [
 		name: 'license',
 		message: 'Which license would you like this project to be covered under?',
 		choices: ['MIT', 'APACHE', 'None']
-	}
+	},
+    {
+		type: 'input',
+		name: 'username',
+		message: 'What is your GitHub username?',
+	},
+    {
+		type: 'input',
+		name: 'email',
+		message: 'What is your email address?',
+	},
 ];
 
 // TODO: Create a function to initialize app
