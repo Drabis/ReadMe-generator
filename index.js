@@ -24,6 +24,11 @@ const questions = [
 		name: 'contribution',
 		message: 'Any contribution?',
 	},
+	{
+		type: 'input',
+		name: 'userstory',
+		message: 'what is your user story',
+	},
     {
 		type: 'list',
 		name: 'license',
@@ -48,7 +53,7 @@ function init(){
 inquirer.prompt(questions).then((data) => {
     console.log(data);
 
-    fs.writeToFile('README.md', generateMarkdown(data), (err) => 
+    fs.writeFile('README.md', generateMarkdown(data), (err) => 
         err ? console.log(err) : console.log('Readme created!')
     );   
 });

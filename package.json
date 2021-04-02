@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Drabis/ReadMe-generator#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
     "inquirer": "^8.0.0",
     "package-lock": "^1.0.5"
   }
