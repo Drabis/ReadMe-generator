@@ -9,32 +9,32 @@ const isc = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
 module.exports.mit = mit;
 module.exports.apache = apache;
 
-function renderLicenseBadge(license) {  
-  if (!license){
-    return '';
-  }else {
-    return `${license.mit}`;
-  }
-}
+// function renderLicenseBadge() {  
+//   if (!license){
+//     return '';
+//   }else {
+//     return `${mit}`;
+//   }
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if (!license) {
-    return '';
-  }else {
-    return `${license}`;
-  }
-}
+// function renderLicenseLink(license) {
+//   if (!license) {
+//     return '';
+//   }else {
+//     return `${license}`;
+//   }
+// }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (!license){
-    return '';
-  }else {
-    return `${license}`;
-  }
-}
+// function renderLicenseSection(license) {
+//   if (!license){
+//     return '';
+//   }else {
+//     return `${license}`;
+//   }
+// }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -53,9 +53,8 @@ function generateMarkdown(data) {
   ${data.userstory}
 
   ## License
-  ${renderLicenseBadge(data.license)}
-  ${renderLicenseLink(data.license)}
-  ${renderLicenseSection(data.license)}
+  ${mit}
+  
 
   ## Questions
   For any questions do not hesitate to reach out,
