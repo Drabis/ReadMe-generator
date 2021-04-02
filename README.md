@@ -14,10 +14,9 @@
 
   ## License
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-  
 
   ## Questions
-  For any questions do not hesitate to reach out,
+  For any questions do not hesitate to reach out.
   Contact me:
   On Github: [Drabis](https://github.com/Drabis) 
 
