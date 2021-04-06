@@ -1,5 +1,4 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 const mit = `[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)`
 
 const apache = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
@@ -8,33 +7,6 @@ const isc = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
 
 module.exports.mit = mit;
 module.exports.apache = apache;
-
-// function renderLicenseBadge() {  
-//   if (!license){
-//     return '';
-//   }else {
-//     return `${mit}`;
-//   }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {
-//   if (!license) {
-//     return '';
-//   }else {
-//     return `${license}`;
-//   }
-// }
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) {
-//   if (!license){
-//     return '';
-//   }else {
-//     return `${license}`;
-//   }
-// }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
