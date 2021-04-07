@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   ## User Story
   ${data.userstory}
 
-  ##Tests
+  ## Tests
   ${data.tests}
 
   ## License

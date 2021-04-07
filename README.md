@@ -19,13 +19,11 @@
   ## User Story
   As A developer, I WANT a README generator with the title of my project, table of content, project description, installation instruction, usage information, contribution guidelines, test instruction, a list of license options, and a badge for that license with the corresponding links if provided, SO THAT I can quickly create a professional README for a new project.
 
-  ##Tests
-  undefined
+  ## Tests
+  nmp run test
 
   ## License
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-  
-  
   
 
   ## Questions
