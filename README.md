@@ -3,7 +3,8 @@
 
 
   ## Description
-  Using the command-line application to dynamically generates a professional README.md from a user's input using the Inquirer package. This will allow a project creator to spend more time working on finishing the project and less time creating a good README
+  Using the command-line application to dynamically generates a professional README.md from a user's input using the Inquirer package. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+  
   Here is the walkthrough video :https://drive.google.com/file/d/1c7rQA8q1KoNoLc0MntwopzYnwyGoh_Td/view?usp=sharing
 
   ## Installation
