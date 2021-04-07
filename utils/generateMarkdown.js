@@ -5,12 +5,17 @@ const apache = `[![License](https://img.shields.io/badge/License-Apache%202.0-bl
 
 const isc = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`
 
-module.exports.mit = mit;
-module.exports.apache = apache;
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  # Table of contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Contributing](#contributing)
+  * [User Story](#userstory)
+  * [ Tests ](#Tests)
+  * [License](#license)
 
   ## Description
   ${data.description}
@@ -24,15 +29,20 @@ function generateMarkdown(data) {
   ## User Story
   ${data.userstory}
 
+  ##Tests
+  ${data.tests}
+
   ## License
-  ${mit}
+  ${data.license === 'MIT' ? mit : ''}
+  ${data.license === 'APACHE' ? apache : ''}
+  ${data.license === 'ISC'? isc : ''}
   
 
   ## Questions
-  For any questions do not hesitate to reach out,
+  For any questions do not hesitate to reach out, \n
   Contact me:
-  On Github: [${data.username}](https://github.com/Drabis) \n
-  Via Email: [${data.email}](drabo.aboulaye88@gmail.com)
+  On Github: ${data.username} \n
+  Via Email: ${data.email}
 
 `;
 }

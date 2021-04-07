@@ -29,11 +29,17 @@ const questions = [
 		name: 'userstory',
 		message: 'what is your user story',
 	},
+	{
+		type: 'input',
+		message: 'How to test your project?',
+		name: 'test',
+		default: 'npm test'
+	},
     {
 		type: 'list',
 		name: 'license',
 		message: 'Which license would you like this project to be covered under?',
-		choices: ['MIT', 'APACHE', 'None']
+		choices: ['MIT', 'APACHE', 'ISC', 'None']
 	},
     {
 		type: 'input',
