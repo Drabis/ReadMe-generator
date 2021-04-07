@@ -17,20 +17,22 @@
   You can fork the repo, work on a new branch and finally open a pull request for review
 
   ## User Story
-  As A developer, I WANT a README generator with the title of my project, table of content, project description, installation instruction, usage information, contribution guidelines, test instruction, a list of license options, and a badge for that license with the corresponding links if provided, SO THAT I can quickly create a professional README for a new project.
+  As a developer, I WANT a README generator with the title of my project, table of content, project description, installation instruction, contribution guidelines, test instruction, a list of license options, and a badge for that license with the corresponding links if provided, SO THAT I can quickly create a professional README for a new project.
 
   ## Tests
-  nmp run test
+  undefined
 
   ## License
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
   
+  
+  
 
   ## Questions
-  For any questions do not hesitate to reach out, 
+  For any questions do not hesitate to reach out. 
 
   Contact me:
-  On Github: Drabis 
+  On Github: github.com/Drabis 
 
-  Via Email: drabo.aboulaye88@yahoo.com
+  Via Email: drabo.aboulaye88@gmail.com
 
